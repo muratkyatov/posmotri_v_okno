@@ -1,0 +1,1 @@
+git@github.com:muratkyatov/posmotri_v_okno.git
