@@ -146,7 +146,7 @@ ol {
   font-weight: 400;
   line-height: normal;
   appearance: none;
-  width: 225px;
+  min-width: 225px;
 }
 
 .search-form__textfield:focus {
