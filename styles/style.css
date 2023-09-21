@@ -17,7 +17,7 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  padding: 133px 30px;
+  padding: 133px 30px 138px 30px;
 }
 
 h1,
@@ -45,10 +45,6 @@ ol {
   align-items: flex-end;
   gap: 30px;
   width: 1140px;
-}
-
-.result {
-  /* padding-bottom: 6px; */
 }
 
 .result__video-container {
@@ -212,7 +208,6 @@ ol {
   overflow-y: auto;
   overflow-x: hidden;
   position: relative;
-  /* padding-bottom: 6px; */
 }
 
 .content__list:not(:first-child):not(:last-child) {
@@ -228,10 +223,6 @@ ol {
   text-decoration: none;
   color: #fff;
   margin: 2px;
-}
-
-.content__card-link_current {
-  background: #545050;
 }
 
 .content__card-link:focus {
@@ -254,11 +245,6 @@ ol {
 .content__video-card {
   display: flex;
   align-items: flex-start;
-  /* padding: 2px; */
-}
-
-.content__video-card:hover {
-  text-decoration: underline;
 }
 
 .content__video-card-description-container {
@@ -288,7 +274,6 @@ ol {
   object-fit: cover;
   object-position: center;
   flex-shrink: 0;
-  
 }
 
 .more-button {
