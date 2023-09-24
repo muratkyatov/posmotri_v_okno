@@ -17,7 +17,7 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  padding: 133px 30px;
+  align-items: center;
 }
 
 h1,
@@ -45,10 +45,6 @@ ol {
   align-items: flex-end;
   gap: 30px;
   width: 1140px;
-}
-
-.result {
-  padding-bottom: 4px;
 }
 
 .result__video-container {
@@ -143,6 +139,10 @@ ol {
   margin: 1px;
 }
 
+.search-form__checkbox:active + .search-form__pseudo-checkbox::after {
+  text-decoration: none;
+}
+
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
@@ -193,9 +193,9 @@ ol {
 .content__details {
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 26px;
+  /* display: flex;
+  flex-direction: column; */
+  gap: 17px;
 }
 
 .title {
@@ -216,7 +216,8 @@ ol {
   overflow-y: auto;
   overflow-x: hidden;
   position: relative;
-  padding-bottom: 2px;
+  padding-bottom: px;
+  
 }
 
 .content__list:not(:first-child):not(:last-child) {
@@ -272,6 +273,9 @@ ol {
   font-weight: 700;
   text-transform: uppercase;
   padding-bottom: 6px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .content__video-card-description {
@@ -290,8 +294,7 @@ ol {
 }
 
 .more-button { 
-  width: 394px;  
-  margin: 2px; 
+  width: 100%;  
 }
 
 .more-button:active {
@@ -308,8 +311,3 @@ ol {
   white-space: nowrap;
 }
 
-.block {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
