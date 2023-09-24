@@ -48,7 +48,7 @@ ol {
 }
 
 .result {
-  padding-bottom: 2px;
+  padding-bottom: 4px;
 }
 
 .result__video-container {
@@ -100,6 +100,7 @@ ol {
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
+  outline-offset: 1px;
 }
 
 .search-form__label-text {
@@ -170,6 +171,7 @@ ol {
 
 .button:focus-visible {
   outline: 1px solid #fff;
+  outline-offset: 2px;
 }
 
 .button:active {
@@ -214,7 +216,7 @@ ol {
   overflow-y: auto;
   overflow-x: hidden;
   position: relative;
-  padding-bottom: 5px;
+  padding-bottom: 2px;
 }
 
 .content__list:not(:first-child):not(:last-child) {
@@ -287,8 +289,9 @@ ol {
   flex-shrink: 0;
 }
 
-.more-button {
-  width: 100%;
+.more-button { 
+  width: 394px;  
+  margin: 2px; 
 }
 
 .more-button:active {
