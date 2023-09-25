@@ -281,7 +281,7 @@ ol {
   font-weight: 700;
   text-transform: uppercase;
   padding-bottom: 6px;
-  margin: -10px 0;
+  line-height: 1;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -306,8 +306,7 @@ ol {
 }
 
 .more-button {
-  width: 399px;
-
+  width: 100%;
 }
 
 .more-button:active {
